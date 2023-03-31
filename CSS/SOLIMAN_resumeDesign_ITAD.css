@@ -1,0 +1,217 @@
+.navbar {
+	background-color: lightsalmon;
+	border-top: 10px solid coral;
+	border-bottom: 10px solid coral;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.navbar a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.navbar a:hover {
+	background-color: moccasin;
+	color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Playfair Display', Georgia, Bakersville, serif;
+	color: maroon;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+h2{
+  font-family: 'Playfair Display', Georgia, Bakersville, serif;
+	color: maroon;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+h3 {
+  font-family: 'Playfair Display', Georgia, Bakersville, serif;
+  color: maroon;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-size: 1.125em;
+}
+
+h4 {
+  font-family: 'Playfair Display', Georgia, Bakersville, serif;
+  font-size: 0.875em;
+}
+
+.edge{
+	border: 10px;
+	border-style: solid;
+	border-color: lightsalmon gold;
+	background-color: khaki;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+.midnightblue {
+  color: midnightblue;
+}
+
+.center {
+  text-align: center;
+}
+
+li, p{
+	text-align: left;
+	font-family: Rubik, Poppins, Outfit,  Sans-serif;
+	font-size: 1.00em;
+	color: midnightblue;
+	}
+
+div{
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.00em;
+	color: midnightblue;
+}
+
+body{
+	background-color: khaki;
+	}
+
+.paper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d2d3d6;
+  padding: 50px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  box-shadow: -10px 40px 37px 5px #3a3560;
+}
+
+.paper2 {
+  background-color: #e2e2e4;
+}
+
+.content {
+  display: inline-block;
+}
+
+.border {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  height: 1225px;
+  vertical-align: top;
+  padding-top: 440px;
+}
+
+.border h3.midnightblue {
+  writing-mode: vertical-rl;
+  color: #9ca8a8;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+}
+
+.left {
+  display: inline-block;
+  width: 270px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  border-left: solid 2px #a8adb0;
+  box-sizing: border-box;
+  height: auto;
+  vertical-align: top;
+}
+
+.left h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.right {
+  display: inline-block;
+  width: 330px;
+  box-sizing: border-box;
+  height: auto;
+}
+.pic {
+  position: relative;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.colorbox {
+  background-color: #93a0a8;
+  position: absolute;
+  top: 447px;
+  left: 347px;
+  width: 26px;
+  height: 200px;
+}
+
+.year h4 {
+  display: inline-block;
+}
+
+.year .info {
+  display: inline-block;
+  text-align: right;
+  width: 230px;
+  font-size: 14px;
+  vertical-align: middle;
+  height: auto;
+  margin-left: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.centerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin: 0;
+}
+
+.button {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: lightsalmon ;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: khaki;
+}

@@ -1,0 +1,125 @@
+.navbar {
+	background-color: lightsalmon;
+	border-top: 10px solid coral;
+	border-bottom: 10px solid coral;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.navbar a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.navbar a:hover {
+	background-color: moccasin;
+	color: #333;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.document {
+	max-width: 1300px;
+	margin: auto;
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #e2e2e4;
+	border-radius: 10px;
+	box-shadow: -10px 40px 37px 5px #3a3560;
+}
+
+.edge{
+	border: 15px;
+	border-style: solid;
+	border-color: lightsalmon gold;
+	background-color: white;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.marg{
+	font-family: Rubik, Poppins, Outfit,  Sans-serif;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	letter-spacing: 4px;
+	line-height: 1.6;
+	font-size: 24px;
+	text-align: justified;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto; 
+	border-top: 8px groove #A93226;
+    border-right: 8px groove #E74C3C;
+    border-bottom: 8px groove #EC7063 ;
+    border-left: 8px groove  #F1948A;
+}
+
+h1{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+	
+h2{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	letter-spacing: 1px;
+}
+
+p, a{
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+body{
+	background-color: khaki;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nlogo {
+	font-family: 'League Spartan', Rubik, Poppins, sans-serif;
+	color: maroon;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin: 20px 3px 0px 0px;
+	overflow: hidden;
+}
+
+.tle {
+	margin-bottom: 10px;
+	margin-top: 0px;
+	padding: 20px 0px;
+	background-color: #CC3366;
+	color: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+}

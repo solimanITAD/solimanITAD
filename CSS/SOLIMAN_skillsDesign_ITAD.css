@@ -1,0 +1,184 @@
+.navbar {
+	background-color: lightsalmon;
+	border-top: 10px solid coral;
+	border-bottom: 10px solid coral;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.navbar a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar a:hover {
+	background-color: moccasin;
+	color: #333;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.document {
+	max-width: 1100px;
+	margin: auto;
+	padding: 20px;
+	background-color: #e2e2e4;
+	border-radius: 10px;
+	box-shadow: -10px 40px 37px 5px #3a3560;
+}
+
+.image {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.image img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin: 15px;
+	transition: transform 0.3s, filter 0.3s;
+	border: 15px groove goldenrod;
+	overflow: hidden;
+}
+
+.image:hover img {
+	transform: scale(1.1);
+	filter: brightness(130%);
+	overflow: hidden;
+}
+
+.image .caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image:hover .caption {
+	opacity: 1;
+}
+
+h1{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+	
+h2{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	letter-spacing: 1px;
+}
+
+p, a{
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.00em;
+	text-align: right;
+}
+	
+body{
+	background-color: khaki;
+}
+	
+blockquote{
+	text-align: justify;
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.25em;
+	color: midnightblue;
+}
+
+sup{
+	color: lightsalmon;
+	font-weight: bold;
+}
+	
+pre{
+	text-align: right;
+}
+
+.bordered-text {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.centerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin: 0;
+}
+
+.button {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: maroon;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FBF779;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #FEFBA3;
+}
+
+.tle {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: #FBF779;
+	color: maroon;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 5px 0px;
+	padding: 20px 0px;
+}
+
+.nlogo {
+	font-family: 'League Spartan', Rubik, Poppins, sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin: 2px 3px 0px 0px;
+}

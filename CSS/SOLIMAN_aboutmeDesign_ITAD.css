@@ -1,0 +1,183 @@
+.navbar {
+	background-color: lightsalmon;
+	border-top: 10px solid coral;
+	border-bottom: 10px solid coral;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.navbar a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar a:hover {
+	background-color: moccasin;
+	color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+	
+.square {
+	width: 325px;
+    height: 325px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.square:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 325px;
+    height: 325px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+sup{
+	color: lightsalmon;
+	font-weight: bold;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.square:hover .overlay-text {
+    opacity: 1;
+}
+	
+div{
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+
+h1, h2, h3{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.edge{
+	border: 15px;
+	border-style: solid;
+	border-color: lightsalmon gold;
+	background-color: white;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+.nlogo {
+	font-family: 'League Spartan', Rubik, Poppins, sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin: 2px 3px 0px 0px;
+}
+
+.document {
+	max-width: 1400px;
+	margin: auto;
+	padding: 20px;
+	background-color: #e2e2e4;
+	border-radius: 10px;
+	box-shadow: -10px 40px 37px 5px #3a3560;
+}
+
+blockquote{
+	text-align: justify;
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.23em;
+	color: midnightblue;
+}
+
+p{
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.00em;
+	text-align: right;
+}
+
+body {
+	background-color: khaki;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.centerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin: 0;
+}
+
+.button {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FD9393;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #FAAAAA;
+}
+
+.tle {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: #FF8181;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 5px 0px;
+	padding: 20px 0px;
+}

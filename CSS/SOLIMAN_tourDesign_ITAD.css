@@ -1,0 +1,217 @@
+.navbar {
+	background-color: lightsalmon;
+	border-top: 10px solid coral;
+	border-bottom: 10px solid coral;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.navbar a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+div > h3 {
+	font-family: 'League Spartan', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin: 2px 3px 0px 0px;
+}
+
+.navbar a:hover {
+	background-color: moccasin;
+	color: #333;
+}
+
+h1{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	text-align: center;
+	margin-top: 50px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+	
+h2{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-family: Adamina, Georgia, Bakersville, serif;
+	color: maroon;
+	letter-spacing: 1px;
+}
+
+p {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.00em;
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 1.00em;
+	text-align: right;
+}
+
+.document {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+	background-color: #e2e2e4;
+	border-radius: 10px;
+	box-shadow: -10px 40px 37px 5px #3a3560;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body{
+	background-color: khaki;
+}
+
+.image {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.image img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin: 15px;
+	transition: transform 0.3s, filter 0.3s;
+    border-top: 5px solid #FFA07A;
+    border-right: 10px solid #F08080;
+    border-bottom: 5px solid #FA8072;
+    border-left: 10px solid #F4D03F;
+	overflow: hidden;
+}
+
+.marg {
+	margin-right: 65px;
+	margin-left: 65px;
+	display: block;
+}
+.flag {
+    border-top: 5px solid #FFA07A;
+    border-right: 10px solid #F08080;
+    border-bottom: 5px solid #FA8072;
+    border-left: 10px solid #F4D03F;
+	overflow: hidden; /* clears float */
+}
+
+.float-left {
+  float: left;
+  margin-right: 30px; /* adjust this as needed */
+}
+
+.landscape {
+  max-width: 300px; /* adjust this as needed */
+  height: 205px;
+}
+
+.text-justify {
+  text-align: justify;
+  margin-right: 30px;
+}
+
+
+.over {
+	overflow: hidden;
+}
+
+.image:hover img {
+	transform: scale(1.1);
+	filter: brightness(130%);
+	overflow: hidden;
+}
+
+.image .caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	color: white;
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image:hover .caption {
+	opacity: 1;
+}
+
+.centerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin: 0;
+}
+
+.button {
+	font-family: Rubik, Poppins, Outfit, Sans-serif;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FFA07A;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #F4D03F;
+}
+
+.tle {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: #FFA07A;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 5px 0px;
+	padding: 20px 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
